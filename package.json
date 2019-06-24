@@ -2,7 +2,7 @@
   "name": "jeopardy",
   "productName": "Jeopardy ",
   "version": "1.0.0",
-  "description": "lay your own version of Jeopardy. Perfect for Sunday School lessons, youth meetings, and more.",
+  "description": "Play your own version of Jeopardy. Perfect for Sunday School lessons, youth meetings, and more.",
   "main": "./src/electron/main.js",
   "scripts": {
     "build": "webpack",
@@ -24,7 +24,6 @@
   "author": "Coptic Faith",
   "license": "MIT",
   "dependencies": {
-    "electron": "^1.7.9",
     "electron-packager": "^14.0.0",
     "react": "^15.4.1",
     "react-addons-css-transition-group": "^15.4.1",
@@ -44,6 +43,7 @@
     "babel-preset-react": "^6.16.0",
     "cross-env": "^5.1.0",
     "css-loader": "^0.26.0",
+    "electron": "^1.8.8",
     "electron-winstaller": "^3.0.4",
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-15": "^1.0.1",
