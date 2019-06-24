@@ -1,29 +1,18 @@
-# jeopardy-game
-Create and play your own game of Jeopardy. I threw this together to play with my family over Christmas time. Used React, React-router, Redux, and Electron.
+# Jeopardy
+Play your own version of Jeopardy. Perfect for Sunday School lessons, youth meetings, and more.
 
-# Installation
-There's an app in the `dist` directory.
-To run the app for development, comment out the necessary things and run:
+# Games
+Check the games folder to see some games that have already been created
 
-```npm install```
+# Launching the app
+You can find the app in the `dist` directory.
+For Windows unzip Jeopardy-win
+Open either ia32 or x64 depending on your system (32 or 64 bit)
+Launch Jeopardy 
+Pin to taskbar for quick access
 
-```npm run-script watch```
 
-```npm start```
-
-To package the app for OSX:
-
-```npm run-script build```
-
-```electron-packager ./jeopardy Jeopardy --version 1.2.4 --platform=darwin --out=[insert output path here] --arch=all --ignore="(node_modules)"```
-
-# Testing
-
-First unzip the zip file in dist/ and then run
-
-```npm test```
 
 ## Screen shots
-<img width="635" alt="screen shot 2016-12-17 at 3 46 48 pm" src="https://cloud.githubusercontent.com/assets/10538978/21290243/3abb4ae8-c470-11e6-83cb-67bdc88f6952.png">
-<img width="542" alt="screen shot 2016-12-17 at 3 53 04 pm" src="https://cloud.githubusercontent.com/assets/10538978/21290266/e93ddd92-c470-11e6-8379-c8787b6de75d.png">
-<img width="673" alt="screen shot 2016-12-17 at 4 00 53 pm" src="https://cloud.githubusercontent.com/assets/10538978/21290289/03a7379a-c472-11e6-9832-f8570a577021.png">
+<img width="635" alt="screen shot 2016-12-17 at 3 46 48 pm" src="https://user-images.githubusercontent.com/4358907/59995330-b101c280-960b-11e9-86a9-545784916020.png">
+<img width="542" alt="screen shot 2016-12-17 at 3 53 04 pm" src="https://user-images.githubusercontent.com/4358907/59995363-c7a81980-960b-11e9-8e61-1840b7af255e.png">

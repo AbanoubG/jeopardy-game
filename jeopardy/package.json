@@ -1,8 +1,7 @@
 {
   "name": "jeopardy",
-  "productName": "Jeopardy ",
   "version": "1.0.0",
-  "description": "lay your own version of Jeopardy. Perfect for Sunday School lessons, youth meetings, and more.",
+  "description": "An app for creating/playing your own jeopardy game.",
   "main": "./src/electron/main.js",
   "scripts": {
     "build": "webpack",
@@ -13,15 +12,14 @@
     "test": " ./node_modules/mocha/bin/mocha && jest",
     "test-jest": "jest",
     "test-watch": "jest --watch",
-    "package-win": "electron-packager ./ Jeopardy --out=C:/Users/penan/desktop --platform=win32 --arch=all --icon=assets/icons/win/cross.ico --asar --ignore=\"(node_modules)\" ",
-    "create-installer-win": "node installers/windows/createinstaller.js"
+    "package-win": "electron-packager ./dist Jeopardy --platform=win32 --arch=all --asar "
   },
   "jest": {
     "moduleNameMapper": {
       "electron": "<rootDir>/src/components/tests/mock/electron.js"
     }
   },
-  "author": "Coptic Faith",
+  "author": "Denver Smith",
   "license": "MIT",
   "dependencies": {
     "electron": "^1.7.9",
@@ -44,7 +42,6 @@
     "babel-preset-react": "^6.16.0",
     "cross-env": "^5.1.0",
     "css-loader": "^0.26.0",
-    "electron-winstaller": "^3.0.4",
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-15": "^1.0.1",
     "file-loader": "1.1.5",
