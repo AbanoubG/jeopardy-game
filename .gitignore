@@ -1,7 +1,6 @@
-release-builds/
 node_modules/
 *.swp
 .idea
 .DS_Store
 yarn.lock
-dist/
+
